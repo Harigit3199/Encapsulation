@@ -49,15 +49,15 @@ public class Encapdemo
 {
     public static void main(String[] args)
     {
-        Account A1= new Account();
-        A1.setAccountnum(84563928463L);
-        A1.setName("Yamaha");
-        A1.setEmail("yamahabikes@yamaha.com");
-        A1.setAmount(25000);
-        System.out.println("Account number: "+ A1.getAccountnum());
-        System.out.println("Holder Name: "+ A1.getName());
-        System.out.println("Holder Email: "+A1.getEmail());
-        System.out.println("Amount: "+ A1.getAmount());
+        Account details= new Account();
+        details.setAccountnum(84563928463L);
+        details.setName("Yamaha");
+        details.setEmail("yamahabikes@yamaha.com");
+        details.setAmount(25000);
+        System.out.println("Account number: "+ details.getAccountnum());
+        System.out.println("Holder Name: "+ details.getName());
+        System.out.println("Holder Email: "+details.getEmail());
+        System.out.println("Amount: "+ details.getAmount());
 
     }
 
